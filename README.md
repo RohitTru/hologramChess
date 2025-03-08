@@ -47,3 +47,20 @@ sudo usermod -a -G spi,gpio $USER
 | 7 | CS | Chip Select | Pin 24 | GPIO 10 | Chip Select |
 
 
+Let's go ahead and create a virtual environment for our python scripts
+- First, let's make sure we have the python3-venv package installed:
+```bash
+sudo apt-get install python3-venv
+```
+
+
+```bash
+python3 -m venv venv
+python venv source/bin/activate
+```
+
+I added a requirements.txt file with the requirments we need
+
+```bash
+pip install -r requirements.txt
+```
