@@ -1,0 +1,4 @@
+luma.oled>=3.12.0  # Main package for OLED display control
+pillow>=10.0.0    # Required for image processing
+RPi.GPIO>=0.7.0   # For GPIO control
+spidev>=3.6       # For SPI interface support
